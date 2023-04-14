@@ -1,0 +1,29 @@
+{% extends 'base.html' %} 
+
+{% block content %}
+
+<main>
+  <section class="card card-body">
+    <h1 class="display-1 text-center">Home</h1>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus facere
+      porro impedit dignissimos at nihil incidunt eligendi molestiae veritatis?
+      Ratione harum ad eius fuga. Distinctio sapiente provident praesentium
+      quisquam asperiores natus mollitia maiores, similique incidunt sint
+      consequatur vitae voluptas culpa vero ad! Fugiat accusamus accusantium,
+      repellat laboriosam voluptatibus pariatur explicabo error, culpa nihil
+      modi aspernatur laudantium quod eius, nemo maxime mollitia dolor vitae
+      nulla? Dolorum voluptatibus minima ipsam laudantium quae iure porro magni
+      vitae sunt? Laboriosam voluptate neque nostrum explicabo accusamus
+      distinctio blanditiis hic doloremque nihil facere labore tempore aperiam
+      quaerat alias fugiat, ullam quasi illo itaque quas? Facere, unde.
+    </p>
+
+    <div class="text-center">
+      <a href="{% url 'signup' %}" class="btn btn-primary">signup</a>
+      <a href="{% url 'signin' %}" class="btn btn-primary">signin</a>
+    </div>
+  </section>
+</main>
+
+{% endblock %}
